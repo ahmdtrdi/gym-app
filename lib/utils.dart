@@ -5,37 +5,159 @@ import 'package:google_fonts/google_fonts.dart';
 
 // ** FONT STYLES 
 
+const String _FONT_FAMILY = 'IntegralCF';
+
 // ** MOBILE HEADING 
 
-TextStyle mobileH1 = GoogleFonts.openSans(
-  fontSize: 32,
-  fontWeight: FontWeight.w700
-);
+class Typography {
 
-TextStyle mobileH2 = TextStyle(
-  fontFamily: 'integral-CF',
-  fontSize: 24,
-);
+  // ** HEADING 1
+  static TextStyle boldH1 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 36,
+    fontWeight: FontWeight.w700,
+  );
 
-TextStyle mobileH3 = TextStyle(
-  fontFamily: 'integral-CF',
-  fontSize: 20,
-);
+  static TextStyle semiboldH1 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 36,
+    fontWeight: FontWeight.w600,
+  );
 
-TextStyle mobileH4 = TextStyle(
-  fontFamily: 'integral-CF',
-  fontSize: 18,
-);
+  static TextStyle mediumH1 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 36,
+    fontWeight: FontWeight.w500,
+  );
 
-TextStyle mobileH5 = TextStyle(
-  fontFamily: 'integral-CF',
-  fontSize: 16,
-);
+  static TextStyle regularH1 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 32,
+    fontWeight: FontWeight.w400,
+  );
 
-TextStyle mobileH6 = TextStyle(
-  fontFamily: 'integral-CF',
-  fontSize: 10,
-);
+  // ** HEADING 2
+   static TextStyle boldH2 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 32,
+    fontWeight: FontWeight.w700,
+  );
+
+  static TextStyle semiboldH2 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 32,
+    fontWeight: FontWeight.w600,
+  );
+
+  static TextStyle mediumH2 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 32,
+    fontWeight: FontWeight.w500,
+  );
+
+  static TextStyle regularH2 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 32,
+    fontWeight: FontWeight.w400,
+  );
+
+  // ** HEADING 3
+   static TextStyle boldH3 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 28,
+    fontWeight: FontWeight.w700,
+  );
+
+  static TextStyle semiboldH3 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 28,
+    fontWeight: FontWeight.w600,
+  );
+
+  static TextStyle mediumH3 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 28,
+    fontWeight: FontWeight.w500,
+  );
+
+  static TextStyle regularH3 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 28,
+    fontWeight: FontWeight.w400,
+  );
+
+  // ** HEADING 4
+   static TextStyle boldH4 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 24,
+    fontWeight: FontWeight.w700,
+  );
+  
+  static TextStyle semiboldH4 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 24,
+    fontWeight: FontWeight.w600,
+  );
+
+  static TextStyle mediumH4 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 24,
+    fontWeight: FontWeight.w500,
+  );
+
+  static TextStyle regularH4 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 24,
+    fontWeight: FontWeight.w400,
+  );
+
+  // ** HEADING 5
+  static TextStyle boldH5 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 20,
+    fontWeight: FontWeight.w700,
+  );
+  static TextStyle semiboldH5 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 20,
+    fontWeight: FontWeight.w600,
+  );
+  static TextStyle mediumH5 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 20,
+    fontWeight: FontWeight.w500,
+  );
+  static TextStyle regularH5 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 20,
+    fontWeight: FontWeight.w400,
+  );
+
+  // ** HEADING 6
+  static TextStyle boldH6 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 10,
+    fontWeight: FontWeight.w700,
+  );
+
+  static TextStyle semiboldH6 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 10,
+    fontWeight: FontWeight.w600,
+  );
+
+  static TextStyle mediumH6 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 10,
+    fontWeight: FontWeight.w500,
+  );
+
+  static TextStyle regularH6 = const TextStyle(
+    fontFamily: _FONT_FAMILY,
+    fontSize: 10,
+    fontWeight: FontWeight.w400,
+  );
+}
 
 // ** BODY TEXT 
 
