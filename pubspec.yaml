@@ -72,11 +72,16 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family : integral-CF
+    - family : IntegralCF
       fonts:
         - asset: assets/fonts/integralcf-regular.otf
+          weight : 400
         - asset: assets/fonts/integralcf-medium.otf
+          weight : 500
         - asset: assets/fonts/integralcf-semibold.otf
+          weight : 600
         - asset: assets/fonts/integralcf-Bold.otf
+          weight : 700
         - asset: assets/fonts/integralcf-heavy.otf
+          weight : 800
        
