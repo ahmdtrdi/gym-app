@@ -9,7 +9,7 @@ const String _FONT_FAMILY = 'IntegralCF';
 
 // ** MOBILE HEADING 
 
-class Typography {
+class Typogaphy {
 
   // ** HEADING 1
   static TextStyle boldH1 = const TextStyle(
